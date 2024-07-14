@@ -114,7 +114,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     text-wrap: balance;
-    font-size: 33px;
+    font-size: 22px;
   }
 
   .es-text {
@@ -145,6 +145,27 @@ body {
       }
     }
 
+    &__title {
+      position: absolute;
+      top: 10%;
+      right: 5%;
+      font-size: 16px;
+
+      @media screen and (min-width: 400px) {
+        right: 7%;
+      }
+
+      @media screen and (min-width: 768px) {
+        right: 12%;
+      }
+
+      @media screen and (min-width: 992px) {
+        top: 4%;
+        right: 5%;
+        font-size: 24px;
+      }
+    }
+
     &__textCtn {
       padding: 2rem 2rem 0 2rem;
 
@@ -154,17 +175,67 @@ body {
     }
 
     &__text {
+      position: absolute;
       text-align: center;
       margin-block: 1rem;
-      font-size: 16px;
+      bottom: -5%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      min-width: 294px;
+      width: 100%;
+      max-width: 600px;
+
+      &-line {
+        display: block;
+        margin: 0 auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #000;
+        font-size: 9px;
+        margin-bottom: 10px;
+
+        &--white {
+          background-color: unset;
+          color: #fff;
+
+          @media (min-width: 992px) {
+            width: 100% !important;
+          }
+        }
+
+        @media (min-width: 992px) {
+          font-size: 11px;
+          width: 80%;
+        }
+
+        @media (min-width: 1300px) {
+          font-size: 12px;
+          width: 94%;
+        }
+      }
+
+      @media (min-width: 400px) {
+        bottom: -5%;
+      }
 
       @media (min-width: 576px) {
         font-size: 10px;
       }
 
       @media (min-width: 768px) {
+        margin-top: 0;
+        margin-bottom: 0;
+        bottom: -2%;
         font-size: 14px;
       }
+    }
+
+    &__logo {
+      position: absolute;
+      top: 2%;
+      left: 5%;
+      width: 25%;
     }
 
     &__container {
@@ -176,8 +247,12 @@ body {
       }
 
       &--left {
-        background: url('../images/kv-packhot_static.png') no-repeat center;
+        background: url('../images/kv-packhot_static.png') no-repeat center
+          center;
         background-size: cover;
+        // padding-bottom: 100px;
+        min-height: 550px;
+        position: relative;
 
         @media (min-width: 576px) {
           flex-basis: 50%;
@@ -192,7 +267,7 @@ body {
     }
 
     &__packshotCtn {
-      position: relative;
+      // position: relative;
       z-index: 2;
       overflow: hidden;
     }
@@ -237,19 +312,19 @@ body {
 
     &__signs {
       position: absolute;
-      bottom: 1rem;
-      right: 1rem;
-      width: 66%;
+      top: 25%;
+      right: 10px;
+      width: 45%;
       max-width: 200px;
       z-index: 2;
 
       @media (min-width: 360px) {
-        max-width: 250px;
+        // max-width: 250px;
       }
 
       @media (min-width: 410px) {
-        bottom: 2rem;
-        right: 2rem;
+        // bottom: 2rem;
+        // right: 2rem;
       }
 
       @media (min-width: 576px) {
@@ -262,6 +337,11 @@ body {
         max-width: 220px;
         bottom: 1.5rem;
         right: 1.5rem;
+      }
+
+      @media screen and (min-width: 992px) {
+        top: 22%;
+        right: 5%;
       }
     }
 
@@ -397,6 +477,7 @@ body {
 
     &__photo {
       width: 100%;
+      height: 100%;
       // border: 12px solid $es-white;
     }
   }
