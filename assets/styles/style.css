@@ -59,11 +59,11 @@ body {
 }
 .es-rc #es-rc-content .es-title {
   font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
   text-align: center;
   text-wrap: balance;
-  font-size: 22px;
+  font-size: 30px;
 }
 .es-rc #es-rc-content .es-text {
   font-size: 14px;
@@ -129,6 +129,7 @@ body {
   padding-bottom: 5px;
   background: #000;
   font-size: 9px;
+  font-weight: 800;
   margin-bottom: 10px;
 }
 .es-rc #es-rc-content .es-kv__text-line--white {
@@ -148,7 +149,7 @@ body {
 }
 @media (min-width: 1300px) {
   .es-rc #es-rc-content .es-kv__text-line {
-    font-size: 12px;
+    font-size: 11px;
     width: 94%;
   }
 }
@@ -285,6 +286,7 @@ body {
   background-size: cover;
 }
 .es-rc #es-rc-content .es-info .es-title {
+  font-size: 45px;
   color: #ffffff;
   position: relative;
   margin-bottom: 30px;
@@ -294,16 +296,51 @@ body {
   content: "";
   background: url("../images/lip-drip.png") no-repeat center;
   top: 0;
-  left: 70%;
-  background-size: 75%;
+  left: 64%;
+  background-size: 61%;
   display: block;
   width: 122px;
-  height: 83px;
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-info .es-title::after {
+    left: 19%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-info .es-title::after {
+    left: 20%;
+    top: 11%;
+    background-size: 80%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-info .es-title--2::after {
+    left: 42%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-info .es-title {
+    text-align: left;
+  }
 }
 .es-rc #es-rc-content .es-info__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-info__subtitle {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-info__subtitle {
+    font-size: 22px;
+  }
 }
 .es-rc #es-rc-content .es-info__textCtn {
   position: relative;
@@ -321,6 +358,14 @@ body {
     gap: unset;
   }
 }
+@media (min-width: 768px) {
+  .es-rc #es-rc-content .es-info__flexCtn {
+    padding-left: 22px;
+  }
+  .es-rc #es-rc-content .es-info__flexCtn--2 {
+    padding-top: 200px;
+  }
+}
 .es-rc #es-rc-content .es-info__leftCtn {
   display: flex;
   flex-direction: column;
@@ -331,8 +376,10 @@ body {
   }
 }
 .es-rc #es-rc-content .es-info__single {
+  font-family: "Montserrat", sans-serif;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 400;
   padding-block: 0.75em;
   margin-top: 0.5em;
   padding-left: 37px;
@@ -340,13 +387,18 @@ body {
 .es-rc #es-rc-content .es-info__single::before {
   position: absolute;
   content: "";
-  width: 37px;
-  height: 37px;
+  width: 33px;
+  height: 33px;
   top: 50%;
   left: -20px;
   transform: translate(0, -50%);
   background: url(../images/checkbox.png) no-repeat center;
   background-size: contain;
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-info__single {
+    font-size: 14px;
+  }
 }
 .es-rc #es-rc-content .es-info__rightCtn {
   display: flex;
@@ -365,20 +417,32 @@ body {
 .es-rc #es-rc-content .es-info__rightCtn .es-info__product--2 {
   max-height: none;
 }
-.es-rc #es-rc-content .es-info__rightCtn .es-info__product--shine {
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: scale-in-center 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite both;
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-info__rightCtn .es-info__product {
+    display: none;
+  }
 }
 @media (min-width: 576px) {
   .es-rc #es-rc-content .es-info__rightCtn {
     flex-basis: 50%;
   }
 }
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-info {
+    background: url(../images/info-bg-desktop.png) no-repeat center right;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-info--2 {
+    margin-top: -260px;
+    background: url(../images/info-2-bg-desktop.png) no-repeat left center;
+    background-size: contain;
+    height: 712px;
+  }
+}
 .es-rc #es-rc-content .es-colors {
-  background-color: #d43e88;
-  background: url(../images/benefits-bg.png) no-repeat center;
+  background-color: #8bb312;
   background-size: cover;
   color: #fff;
   padding-top: 0;
@@ -423,35 +487,56 @@ body {
 }
 .es-rc #es-rc-content .es-colors__single--1 {
   background-color: #eceede;
+  background: linear-gradient(to bottom, #eceede 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--2 {
   background-color: #ec6995;
+  background: linear-gradient(to bottom, #ec6995 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--3 {
   background-color: #de1063;
+  background: linear-gradient(to bottom, #de1063 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--4 {
   background-color: #7d1a48;
+  background: linear-gradient(to bottom, #7d1a48 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--5 {
   background-color: #bf0b38;
+  background: linear-gradient(to bottom, #bf0b38 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--6 {
   background-color: #c0644b;
+  background: linear-gradient(to bottom, #c0644b 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--7 {
   background-color: #773213;
+  background: linear-gradient(to bottom, #773213 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--8 {
   background-color: #3a0300;
+  background: linear-gradient(to bottom, #3a0300 53%, transparent 50%);
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-colors__single {
+    min-width: 100px;
+    width: 20%;
+    max-width: 116.2px;
+    padding-top: 150px;
+  }
 }
 .es-rc #es-rc-content .es-colors__img {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 200ms ease-in-out;
 }
-.es-rc #es-rc-content .es-colors__img:hover {
-  scale: 1.25;
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-colors__img {
+    max-width: 78%;
+  }
+  .es-rc #es-rc-content .es-colors__img:hover {
+    scale: 1.25;
+  }
 }
 .es-rc #es-rc-content .es-colors__name {
   font-family: "Montserrat", sans-serif;
@@ -471,9 +556,14 @@ body {
   font-size: 50px;
   font-weight: 700;
 }
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-colors__name {
+    min-width: 100px;
+    font-size: 14px;
+  }
+}
 .es-rc #es-rc-content .es-shades {
-  background-color: #d43e88;
-  background: url(../images/benefits-bg.png) no-repeat center;
+  background-color: #bdcf2d;
   background-size: cover;
   color: #fff;
   padding-top: 0;
@@ -517,48 +607,73 @@ body {
   overflow: hidden;
 }
 .es-rc #es-rc-content .es-shades__single--1 {
-  background-color: #eceede;
+  background-color: #fee0fa;
+  background: linear-gradient(to bottom, #fee0fa 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--2 {
-  background-color: #ec6995;
+  background-color: #e77e8d;
+  background: linear-gradient(to bottom, #e77e8d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--3 {
-  background-color: #de1063;
+  background-color: #994346;
+  background: linear-gradient(to bottom, #994346 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--4 {
-  background-color: #7d1a48;
+  background-color: #782e2d;
+  background: linear-gradient(to bottom, #782e2d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--5 {
-  background-color: #bf0b38;
+  background-color: #703227;
+  background: linear-gradient(to bottom, #703227 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--6 {
-  background-color: #c0644b;
+  background-color: #ad563b;
+  background: linear-gradient(to bottom, #ad563b 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--7 {
-  background-color: #773213;
+  background-color: #993861;
+  background: linear-gradient(to bottom, #993861 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--8 {
-  background-color: #3a0300;
+  background-color: #cc0071;
+  background: linear-gradient(to bottom, #cc0071 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--9 {
   background-color: #6f213b;
+  background: linear-gradient(to bottom, #6f213b 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--10 {
   background-color: #9e003d;
+  background: linear-gradient(to bottom, #9e003d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--11 {
   background-color: #5c101c;
+  background: linear-gradient(to bottom, #5c101c 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--12 {
   background-color: #4d2f27;
+  background: linear-gradient(to bottom, #4d2f27 69%, transparent 50%);
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-shades__single {
+    min-width: 77.5px;
+    width: 14%;
+    max-width: 75px;
+    padding-top: 150px;
+  }
 }
 .es-rc #es-rc-content .es-shades__img {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 200ms ease-in-out;
 }
-.es-rc #es-rc-content .es-shades__img:hover {
-  scale: 1.25;
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-shades__img {
+    max-width: 78%;
+  }
+  .es-rc #es-rc-content .es-shades__img:hover {
+    scale: 1.25;
+  }
 }
 .es-rc #es-rc-content .es-shades__name {
   font-family: "Montserrat", sans-serif;
@@ -577,6 +692,20 @@ body {
   display: block;
   font-size: 50px;
   font-weight: 700;
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-shades__name {
+    font-size: 10px;
+    min-width: 60px;
+  }
+  .es-rc #es-rc-content .es-shades__name--large {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-shades {
+    margin-top: -5px;
+  }
 }
 .es-rc #es-rc-content .es-features {
   background-color: #d43e88;
@@ -771,7 +900,18 @@ body {
   background-size: cover;
   padding: 2rem;
 }
-.es-rc #es-rc-content .es-cross .es-title {
+.es-rc #es-rc-content .es-cross__title {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.es-rc #es-rc-content .es-cross__subtitle {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
 }
 .es-rc #es-rc-content .es-cross__productsCtn {
@@ -786,6 +926,7 @@ body {
 @media (min-width: 768px) {
   .es-rc #es-rc-content .es-cross__productsCtn {
     flex-direction: row;
+    justify-content: center;
   }
 }
 .es-rc #es-rc-content .es-cross__single {
@@ -805,6 +946,14 @@ body {
   color: #d43e88;
   outline: 4px solid #d43e88;
 }
+@media screen and (min-width: 768px) {
+  .es-rc #es-rc-content .es-cross__single--plus {
+    align-self: center;
+    width: 74px;
+    flex-basis: auto;
+    margin-left: -50px;
+  }
+}
 .es-rc #es-rc-content .es-cross__img {
   margin: 0 auto;
   display: block;
@@ -812,7 +961,7 @@ body {
   transition: all 400ms ease-in-out;
 }
 .es-rc #es-rc-content .es-cross__img--plus {
-  width: 74px;
+  width: 54px;
   height: auto;
 }
 .es-rc #es-rc-content .es-cross__name {
@@ -850,34 +999,33 @@ body {
 }
 .es-rc #es-rc-content .es-cross__star {
   position: absolute;
-  transform: rotate(35deg);
   animation: blink-2 4s ease-in-out infinite both;
   z-index: -1;
 }
 .es-rc #es-rc-content .es-cross__star--1 {
-  top: 3%;
-  left: 2%;
-  width: 25px;
-  height: 25px;
+  top: 0%;
+  left: 0%;
+  width: 53px;
+  height: 53px;
   animation-delay: 3.6s;
 }
 @media (min-width: 768px) {
   .es-rc #es-rc-content .es-cross__star--1 {
-    top: 9%;
-    left: -1%;
+    top: -16%;
+    left: 15%;
   }
 }
 .es-rc #es-rc-content .es-cross__star--2 {
   top: 2%;
   left: 24%;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 70px;
   animation-delay: 1.8s;
 }
 @media (min-width: 768px) {
   .es-rc #es-rc-content .es-cross__star--2 {
-    top: 7%;
-    left: 6%;
+    top: 3%;
+    left: 13%;
   }
 }
 .es-rc #es-rc-content .es-cross__star--3 {
@@ -889,8 +1037,9 @@ body {
 }
 @media (min-width: 768px) {
   .es-rc #es-rc-content .es-cross__star--3 {
-    top: 18%;
-    left: 4%;
+    bottom: -3%;
+    left: 17%;
+    top: auto;
   }
 }
 .es-rc #es-rc-content .es-cross__star--4 {
@@ -907,8 +1056,8 @@ body {
 }
 @media (min-width: 768px) {
   .es-rc #es-rc-content .es-cross__star--4 {
-    right: -1%;
-    top: 10%;
+    right: 11%;
+    top: -13%;
   }
 }
 .es-rc #es-rc-content .es-cross__star--5 {
@@ -927,6 +1076,12 @@ body {
   .es-rc #es-rc-content .es-cross__star--5 {
     right: -4%;
     top: 22%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-cross {
+    margin-top: -260px;
+    padding-top: 300px;
   }
 }
 .es-rc #es-rc-content .es-photos__img {
