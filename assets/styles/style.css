@@ -314,9 +314,17 @@ body {
     background-size: 80%;
   }
 }
+.es-rc #es-rc-content .es-info .es-title--2::after {
+  background: url("../images/slick-click.png") no-repeat center;
+  width: 200px;
+  height: 70px;
+  background-size: 45%;
+}
 @media screen and (min-width: 1300px) {
   .es-rc #es-rc-content .es-info .es-title--2::after {
-    left: 42%;
+    left: 35%;
+    height: 55px;
+    background-size: 70%;
   }
 }
 @media screen and (min-width: 768px) {
