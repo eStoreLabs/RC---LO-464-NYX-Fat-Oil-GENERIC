@@ -722,7 +722,7 @@ body {
     min-width: 87.5px;
     width: 14%;
     max-width: 75px;
-    padding-top: 150px;
+    padding-top: 135px;
     height: 400px;
   }
   .es-rc #es-rc-content .es-shades__single--1 {
@@ -767,7 +767,7 @@ body {
   text-align: center;
   padding: 4px;
   position: absolute;
-  top: 10px;
+  top: 20px;
 }
 .es-rc #es-rc-content .es-shades__name--large {
   display: block;
