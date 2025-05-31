@@ -445,7 +445,6 @@ body {
       padding-block: 0.75em;
       margin-top: 0.5em;
       padding-left: 37px;
-      // border-bottom: 2px solid $es-white;
 
       &::before {
         position: absolute;
@@ -502,7 +501,6 @@ body {
     @media screen and (min-width: 768px) {
       background: url(../images/info-bg-desktop.png) no-repeat center right;
       background-size: cover;
-      // width: 500px;
     }
 
     &--2 {
@@ -550,6 +548,10 @@ body {
       justify-content: center;
     }
 
+    &__img {
+      max-width: 99px;
+    }
+
     &__single {
       display: flex;
       flex-direction: column;
@@ -558,7 +560,7 @@ body {
       flex-grow: 1;
       min-width: 150px;
       width: 23%;
-      max-width: 240px;
+      max-width: 190px;
       position: relative;
       padding-bottom: 2rem;
       padding-top: 200px;

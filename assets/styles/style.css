@@ -482,6 +482,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.es-rc #es-rc-content .es-colors__img {
+  max-width: 99px;
+}
 .es-rc #es-rc-content .es-colors__single {
   display: flex;
   flex-direction: column;
@@ -490,7 +493,7 @@ body {
   flex-grow: 1;
   min-width: 150px;
   width: 23%;
-  max-width: 240px;
+  max-width: 190px;
   position: relative;
   padding-bottom: 2rem;
   padding-top: 200px;
