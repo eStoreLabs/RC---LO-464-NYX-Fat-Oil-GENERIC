@@ -498,42 +498,68 @@ body {
 }
 .es-rc #es-rc-content .es-colors__single--1 {
   background-color: #eceede;
-  background: linear-gradient(to bottom, #eceede 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--2 {
   background-color: #ec6995;
-  background: linear-gradient(to bottom, #ec6995 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--3 {
   background-color: #de1063;
-  background: linear-gradient(to bottom, #de1063 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--4 {
   background-color: #7d1a48;
-  background: linear-gradient(to bottom, #7d1a48 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--5 {
   background-color: #bf0b38;
-  background: linear-gradient(to bottom, #bf0b38 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--6 {
   background-color: #c0644b;
-  background: linear-gradient(to bottom, #c0644b 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--7 {
   background-color: #773213;
-  background: linear-gradient(to bottom, #773213 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--8 {
   background-color: #3a0300;
-  background: linear-gradient(to bottom, #3a0300 53%, transparent 50%);
+}
+.es-rc #es-rc-content .es-colors__single--9 {
+  background-color: #B66562;
+}
+.es-rc #es-rc-content .es-colors__single--10 {
+  background-color: #844037;
+}
+.es-rc #es-rc-content .es-colors__single--11 {
+  background-color: #583225;
+}
+.es-rc #es-rc-content .es-colors__single--12 {
+  background-color: #682E2D;
+}
+.es-rc #es-rc-content .es-colors__single--13 {
+  background-color: #792018;
+}
+.es-rc #es-rc-content .es-colors__single--14 {
+  background-color: #622827;
 }
 @media screen and (min-width: 1300px) {
   .es-rc #es-rc-content .es-colors__single {
     min-width: 100px;
     width: 20%;
-    max-width: 116.2px;
+    max-width: 120.2px;
     padding-top: 150px;
+  }
+  .es-rc #es-rc-content .es-colors__single--1 {
+    padding-left: 45px;
+    max-width: 164px;
+  }
+  .es-rc #es-rc-content .es-colors__single--7 {
+    padding-right: 45px;
+    max-width: 164px;
+  }
+  .es-rc #es-rc-content .es-colors__single--8 {
+    padding-left: 45px;
+    max-width: 164px;
+  }
+  .es-rc #es-rc-content .es-colors__single--14 {
+    padding-right: 45px;
+    max-width: 164px;
   }
 }
 .es-rc #es-rc-content .es-colors__img {
@@ -544,6 +570,7 @@ body {
 @media screen and (min-width: 1300px) {
   .es-rc #es-rc-content .es-colors__img {
     max-width: 78%;
+    height: 288px;
   }
   .es-rc #es-rc-content .es-colors__img:hover {
     scale: 1.25;
@@ -616,62 +643,103 @@ body {
   padding-bottom: 2rem;
   padding-top: 200px;
   overflow: hidden;
+  display: block;
 }
 .es-rc #es-rc-content .es-shades__single--1 {
   background-color: #fee0fa;
-  background: linear-gradient(to bottom, #fee0fa 69%, transparent 50%);
+  background: url("../images/mask-1.png") no-repeat center;
+  background-size: cover;
 }
 .es-rc #es-rc-content .es-shades__single--2 {
   background-color: #e77e8d;
-  background: linear-gradient(to bottom, #e77e8d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--3 {
   background-color: #994346;
-  background: linear-gradient(to bottom, #994346 69%, transparent 50%);
+  background: url("../images/mask-3.png") no-repeat center;
+  background-size: cover;
 }
 .es-rc #es-rc-content .es-shades__single--4 {
   background-color: #782e2d;
-  background: linear-gradient(to bottom, #782e2d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--5 {
   background-color: #703227;
-  background: linear-gradient(to bottom, #703227 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--6 {
   background-color: #ad563b;
-  background: linear-gradient(to bottom, #ad563b 69%, transparent 50%);
+  background: url("../images/mask-6.png") no-repeat center;
+  background-size: cover;
 }
 .es-rc #es-rc-content .es-shades__single--7 {
   background-color: #993861;
-  background: linear-gradient(to bottom, #993861 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--8 {
   background-color: #cc0071;
-  background: linear-gradient(to bottom, #cc0071 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--9 {
   background-color: #6f213b;
-  background: linear-gradient(to bottom, #6f213b 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--10 {
   background-color: #9e003d;
-  background: linear-gradient(to bottom, #9e003d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--11 {
   background-color: #5c101c;
-  background: linear-gradient(to bottom, #5c101c 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--12 {
   background-color: #4d2f27;
-  background: linear-gradient(to bottom, #4d2f27 69%, transparent 50%);
+  background: url("../images/mask-12.png") no-repeat center;
+  background-size: cover;
+}
+.es-rc #es-rc-content .es-shades__single--13 {
+  background-color: #FFFFFF;
+}
+.es-rc #es-rc-content .es-shades__single--14 {
+  background-color: #9D5B4F;
+  background: url("../images/mask-14.png") no-repeat center;
+  background-size: cover;
+}
+.es-rc #es-rc-content .es-shades__single--15 {
+  background-color: #C66D67;
+}
+.es-rc #es-rc-content .es-shades__single--16 {
+  background-color: #8C4E41;
+}
+.es-rc #es-rc-content .es-shades__single--17 {
+  background-color: #744332;
+  background: url("../images/mask-17.png") no-repeat center;
+  background-size: cover;
+}
+.es-rc #es-rc-content .es-shades__single--18 {
+  background-color: #854B4A;
+}
+.es-rc #es-rc-content .es-shades__single--19 {
+  background-color: #A35757;
+}
+.es-rc #es-rc-content .es-shades__single--20 {
+  background-color: #6F213B;
 }
 @media screen and (min-width: 1300px) {
   .es-rc #es-rc-content .es-shades__single {
-    min-width: 77.5px;
+    min-width: 87.5px;
     width: 14%;
     max-width: 75px;
     padding-top: 150px;
     height: 400px;
+  }
+  .es-rc #es-rc-content .es-shades__single--1 {
+    min-width: 114.5px;
+    padding-left: 20px;
+  }
+  .es-rc #es-rc-content .es-shades__single--10 {
+    min-width: 114.5px;
+    padding-right: 30px;
+  }
+  .es-rc #es-rc-content .es-shades__single--11 {
+    min-width: 114.5px;
+    padding-left: 20px;
+  }
+  .es-rc #es-rc-content .es-shades__single--20 {
+    max-width: 114.5px;
+    padding-right: 30px;
   }
 }
 .es-rc #es-rc-content .es-shades__img {
@@ -679,7 +747,9 @@ body {
      object-fit: cover;
   transition: all 200ms ease-in-out;
   max-width: 38%;
-  min-height: 226px;
+  min-height: 243px;
+  max-height: 243px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 1300px) {
   .es-rc #es-rc-content .es-shades__img:hover {
@@ -697,7 +767,7 @@ body {
   text-align: center;
   padding: 4px;
   position: absolute;
-  top: 30px;
+  top: 10px;
 }
 .es-rc #es-rc-content .es-shades__name--large {
   display: block;

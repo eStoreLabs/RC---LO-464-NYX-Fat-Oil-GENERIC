@@ -237,8 +237,7 @@ body {
       }
 
       &--left {
-        background: url('../images/kv-packhot_static.png') no-repeat center
-          center;
+        background: url('../images/kv-packhot_static.png') no-repeat center center;
         background-size: cover;
         min-height: 550px;
         position: relative;
@@ -509,8 +508,7 @@ body {
     &--2 {
       @media screen and (min-width: 768px) {
         margin-top: -260px;
-        background: #7eac12 url(../images/info-2-bg-desktop.png) no-repeat left
-          center;
+        background: #7eac12 url(../images/info-2-bg-desktop.png) no-repeat left center;
         background-size: cover;
         height: 712px;
       }
@@ -568,49 +566,85 @@ body {
 
       &--1 {
         background-color: #eceede;
-        background: linear-gradient(to bottom, #eceede 53%, transparent 50%);
       }
 
       &--2 {
         background-color: #ec6995;
-        background: linear-gradient(to bottom, #ec6995 53%, transparent 50%);
       }
 
       &--3 {
         background-color: #de1063;
-        background: linear-gradient(to bottom, #de1063 53%, transparent 50%);
       }
 
       &--4 {
         background-color: #7d1a48;
-        background: linear-gradient(to bottom, #7d1a48 53%, transparent 50%);
       }
 
       &--5 {
         background-color: #bf0b38;
-        background: linear-gradient(to bottom, #bf0b38 53%, transparent 50%);
       }
 
       &--6 {
         background-color: #c0644b;
-        background: linear-gradient(to bottom, #c0644b 53%, transparent 50%);
       }
 
       &--7 {
         background-color: #773213;
-        background: linear-gradient(to bottom, #773213 53%, transparent 50%);
       }
 
       &--8 {
         background-color: #3a0300;
-        background: linear-gradient(to bottom, #3a0300 53%, transparent 50%);
+      }
+
+      &--9 {
+        background-color: #B66562;
+      }
+
+      &--10 {
+        background-color: #844037;
+      }
+
+      &--11 {
+        background-color: #583225;
+      }
+
+      &--12 {
+        background-color: #682E2D;
+      }
+
+      &--13 {
+        background-color: #792018;
+      }
+
+      &--14 {
+        background-color: #622827;
       }
 
       @media screen and (min-width: 1300px) {
         min-width: 100px;
         width: 20%;
-        max-width: 116.2px;
+        max-width: 120.2px;
         padding-top: 150px;
+
+        &--1 {
+          padding-left: 45px;
+          max-width: 164px;
+        }
+
+        &--7 {
+          padding-right: 45px;
+          max-width: 164px;
+        }
+
+        &--8 {
+          padding-left: 45px;
+          max-width: 164px;
+        }
+
+        &--14 {
+          padding-right: 45px;
+          max-width: 164px;
+        }
       }
     }
 
@@ -620,6 +654,7 @@ body {
 
       @media screen and (min-width: 1300px) {
         max-width: 78%;
+        height: 288px;
 
         &:hover {
           scale: 1.25;
@@ -701,73 +736,127 @@ body {
       padding-bottom: 2rem;
       padding-top: 200px;
       overflow: hidden;
+      display: block;
 
       &--1 {
         background-color: #fee0fa;
-        background: linear-gradient(to bottom, #fee0fa 69%, transparent 50%);
+        background: url("../images/mask-1.png") no-repeat center;
+        background-size: cover;
       }
 
       &--2 {
         background-color: #e77e8d;
-        background: linear-gradient(to bottom, #e77e8d 69%, transparent 50%);
       }
 
       &--3 {
         background-color: #994346;
-        background: linear-gradient(to bottom, #994346 69%, transparent 50%);
+        background: url("../images/mask-3.png") no-repeat center;
+        background-size: cover;
       }
 
       &--4 {
         background-color: #782e2d;
-        background: linear-gradient(to bottom, #782e2d 69%, transparent 50%);
+
       }
 
       &--5 {
         background-color: #703227;
-        background: linear-gradient(to bottom, #703227 69%, transparent 50%);
       }
 
       &--6 {
         background-color: #ad563b;
-        background: linear-gradient(to bottom, #ad563b 69%, transparent 50%);
+        background: url("../images/mask-6.png") no-repeat center;
+        background-size: cover;
       }
 
       &--7 {
         background-color: #993861;
-        background: linear-gradient(to bottom, #993861 69%, transparent 50%);
       }
 
       &--8 {
         background-color: #cc0071;
-        background: linear-gradient(to bottom, #cc0071 69%, transparent 50%);
       }
 
       &--9 {
         background-color: #6f213b;
-        background: linear-gradient(to bottom, #6f213b 69%, transparent 50%);
       }
 
       &--10 {
         background-color: #9e003d;
-        background: linear-gradient(to bottom, #9e003d 69%, transparent 50%);
       }
 
       &--11 {
         background-color: #5c101c;
-        background: linear-gradient(to bottom, #5c101c 69%, transparent 50%);
       }
 
       &--12 {
         background-color: #4d2f27;
-        background: linear-gradient(to bottom, #4d2f27 69%, transparent 50%);
+        background: url("../images/mask-12.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &--13 {
+        background-color: #FFFFFF;
+      }
+
+      &--14 {
+        background-color: #9D5B4F;
+        background: url("../images/mask-14.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &--15 {
+        background-color: #C66D67;
+      }
+
+      &--16 {
+        background-color: #8C4E41;
+      }
+
+      &--17 {
+        background-color: #744332;
+        background: url("../images/mask-17.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &--18 {
+        background-color: #854B4A;
+      }
+
+      &--19 {
+        background-color: #A35757;
+      }
+
+      &--20 {
+        background-color: #6F213B;
       }
 
       @media screen and (min-width: 1300px) {
-        min-width: 77.5px;
+        min-width: 87.5px;
         width: 14%;
         max-width: 75px;
         padding-top: 150px;
         height: 400px;
+
+        &--1 {
+          min-width: 114.5px;
+          padding-left: 20px;
+        }
+
+        &--10 {
+          min-width: 114.5px;
+          padding-right: 30px;
+        }
+
+        &--11 {
+          min-width: 114.5px;
+          padding-left: 20px;
+        }
+
+        &--20 {
+          max-width: 114.5px;
+          padding-right: 30px;
+        }
       }
     }
 
@@ -775,7 +864,9 @@ body {
       object-fit: cover;
       transition: all 200ms ease-in-out;
       max-width: 38%;
-      min-height: 226px;
+      min-height: 243px;
+      max-height: 243px;
+      margin: 0 auto;
 
       @media screen and (min-width: 1300px) {
         &:hover {
@@ -795,7 +886,7 @@ body {
       text-align: center;
       padding: 4px;
       position: absolute;
-      top: 30px;
+      top: 10px;
 
       &--large {
         display: block;
@@ -1013,16 +1104,14 @@ body {
       text-align: center;
       background-color: $es-white;
       width: 99%;
-      clip-path: polygon(
-        5% 0%,
-        95% 0%,
-        100% 50%,
-        100% 50%,
-        95% 100%,
-        5% 100%,
-        0% 50%,
-        0% 50%
-      );
+      clip-path: polygon(5% 0%,
+          95% 0%,
+          100% 50%,
+          100% 50%,
+          95% 100%,
+          5% 100%,
+          0% 50%,
+          0% 50%);
       padding: 4px;
       position: absolute;
       bottom: -12px;
@@ -1086,11 +1175,9 @@ body {
       gap: 2rem;
       background-size: 100% 100%;
       background-position: 0px 0px;
-      background-image: radial-gradient(
-        50% 30% at 50% 27%,
-        rgba(48, 233, 234, 0.3) 0%,
-        rgba(7, 58, 255, 0) 100%
-      );
+      background-image: radial-gradient(50% 30% at 50% 27%,
+          rgba(48, 233, 234, 0.3) 0%,
+          rgba(7, 58, 255, 0) 100%);
 
       &:hover .es-cross__img {
         scale: 1.05;
@@ -1296,26 +1383,31 @@ body {
   opacity: 0;
   transition: 2s all ease;
 }
+
 .es-reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
+
 .es-reveal--left {
   position: relative;
   transform: translateX(-150px);
   opacity: 0;
   transition: 2s all ease;
 }
+
 .es-reveal--left.active {
   transform: translateX(0);
   opacity: 1;
 }
+
 .es-reveal--right {
   position: relative;
   transform: translateX(150px);
   opacity: 0;
   transition: 2s all ease;
 }
+
 .es-reveal--right.active {
   transform: translateX(0);
   opacity: 1;
