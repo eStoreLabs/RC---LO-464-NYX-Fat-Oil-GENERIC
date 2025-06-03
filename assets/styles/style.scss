@@ -626,7 +626,7 @@ body {
         min-width: 100px;
         width: 20%;
         max-width: 120.2px;
-        padding-top: 150px;
+        padding-top: 120px;
 
         &--1 {
           padding-left: 45px;
@@ -659,7 +659,7 @@ body {
         height: 288px;
 
         &:hover {
-          scale: 1.25;
+          scale: 1.15;
         }
       }
     }
@@ -685,7 +685,7 @@ body {
 
       @media screen and (min-width: 1300px) {
         min-width: 100px;
-        font-size: 14px;
+        font-size: 13px;
       }
     }
   }
@@ -742,8 +742,6 @@ body {
 
       &--1 {
         background-color: #fee0fa;
-        background: url("../images/mask-1.png") no-repeat center;
-        background-size: cover;
       }
 
       &--2 {
@@ -752,8 +750,6 @@ body {
 
       &--3 {
         background-color: #994346;
-        background: url("../images/mask-3.png") no-repeat center;
-        background-size: cover;
       }
 
       &--4 {
@@ -767,8 +763,6 @@ body {
 
       &--6 {
         background-color: #ad563b;
-        background: url("../images/mask-6.png") no-repeat center;
-        background-size: cover;
       }
 
       &--7 {
@@ -793,8 +787,6 @@ body {
 
       &--12 {
         background-color: #4d2f27;
-        background: url("../images/mask-12.png") no-repeat center;
-        background-size: cover;
       }
 
       &--13 {
@@ -803,8 +795,6 @@ body {
 
       &--14 {
         background-color: #9D5B4F;
-        background: url("../images/mask-14.png") no-repeat center;
-        background-size: cover;
       }
 
       &--15 {
@@ -817,8 +807,6 @@ body {
 
       &--17 {
         background-color: #744332;
-        background: url("../images/mask-17.png") no-repeat center;
-        background-size: cover;
       }
 
       &--18 {
@@ -841,8 +829,8 @@ body {
         height: 400px;
 
         &--1 {
-          min-width: 114.5px;
-          padding-left: 20px;
+          min-width: 114.6px;
+          padding-left: 10px;
         }
 
         &--10 {
@@ -872,7 +860,7 @@ body {
 
       @media screen and (min-width: 1300px) {
         &:hover {
-          scale: 1.25;
+          scale: 1.15;
         }
       }
     }
@@ -897,7 +885,7 @@ body {
       }
 
       @media screen and (min-width: 1300px) {
-        font-size: 10px;
+        font-size: 11px;
         min-width: 60px;
 
         &--large {
