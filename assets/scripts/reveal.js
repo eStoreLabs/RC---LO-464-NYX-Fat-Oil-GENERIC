@@ -6,9 +6,9 @@
       var elementTop = reveals[i].getBoundingClientRect().top;
       var elementVisible = 25;
       if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add('active');
+        reveals[i].classList.add('es-active');
       } else {
-        reveals[i].classList.remove('active');
+        reveals[i].classList.remove('es-active');
       }
     }
   }

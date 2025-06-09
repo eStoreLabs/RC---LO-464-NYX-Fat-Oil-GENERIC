@@ -1214,7 +1214,7 @@ body {
   transition: 2s all ease;
 }
 
-.es-reveal.active {
+.es-reveal.es-active {
   transform: translateY(0);
   opacity: 1;
 }
@@ -1226,7 +1226,7 @@ body {
   transition: 2s all ease;
 }
 
-.es-reveal--left.active {
+.es-reveal--left.es-active {
   transform: translateX(0);
   opacity: 1;
 }
@@ -1238,7 +1238,7 @@ body {
   transition: 2s all ease;
 }
 
-.es-reveal--right.active {
+.es-reveal--right.es-active {
   transform: translateX(0);
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */
